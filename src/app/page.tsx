@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Heart, Sparkles, Star, Users } from "lucide-react";
+import { Heart, Sparkles, Star, Users, Linkedin, Twitter, Globe } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -110,8 +110,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Sarah Johnson, Founder & CEO",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarah-johnson" },
-                { icon: "Twitter", url: "https://twitter.com/sarahjohnson" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarah-johnson" },
+                { icon: Twitter, url: "https://twitter.com/sarahjohnson" }
               ]
             },
             {
@@ -121,8 +121,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Maria Rodriguez, Director of Programs",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/maria-rodriguez" },
-                { icon: "Globe", url: "https://mariarodriguez.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/maria-rodriguez" },
+                { icon: Globe, url: "https://mariarodriguez.com" }
               ]
             },
             {
@@ -132,8 +132,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/5989942/pexels-photo-5989942.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Jessica Chen, Community Manager",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/jessica-chen" },
-                { icon: "Twitter", url: "https://twitter.com/jessicachen" }
+                { icon: Linkedin, url: "https://linkedin.com/in/jessica-chen" },
+                { icon: Twitter, url: "https://twitter.com/jessicachen" }
               ]
             }
           ]}
