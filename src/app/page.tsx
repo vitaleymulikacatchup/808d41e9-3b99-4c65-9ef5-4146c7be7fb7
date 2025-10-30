@@ -37,7 +37,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="qwfqwfqwfqwfqwf"
+          title="EHYEYYE"
           description="Hey"
           tag="Women Empowerment"
           tagIcon={Sparkles}
