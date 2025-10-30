@@ -37,7 +37,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Empowering Women to Lead"
+          title="qwfqwfqwfqwfqwf"
           description="Join our community of strong, ambitious women breaking barriers and creating lasting change in their industries and communities."
           tag="Women Empowerment"
           tagIcon={Sparkles}
